@@ -9,7 +9,7 @@ Assuming that the following are already present before executing that “ONE SIN
 4) Clone the project, from repository CiscoSPL and get into the directory by giving the command – “cd CiscoSPL”.
  
 
-Execute the ONE SINGLE COMMAND and please do not forget to replace the highlighted variables (VPC id, Security Groups ID, Subnet1 id, Subnet2 id & Key pair) with your own ones from your AWS console because these are the ones from my own AWS Console. By executing the below command, you will see the output in the form of URL which is the endpoint of LOAD BALANCER.
+Execute the ONE SINGLE COMMAND and please do not forget to replace the highlighted variables (VPC id, Security Groups ID, Subnet1 id, Subnet2 id & Key pair name) with your own ones from your AWS console because these are the ones from my own AWS Console. By executing the below command, you will see the output in the form of URL which is the endpoint of LOAD BALANCER.
 
 
 terraform init; terraform apply -var="webvpcid=vpc-effeed95" -var='sg_list_id=["sg-00f6671ede233c06a"]' -var="subnet_id1=subnet-1fde133e" -var="subnet_id2=subnet-2e36f148" -var="instancekey=webkey"
