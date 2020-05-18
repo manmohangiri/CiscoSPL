@@ -1,4 +1,4 @@
-This whole project was developed using terraform.
+This whole project was developed using Terraform.
 
 
 Prerequisites: 
