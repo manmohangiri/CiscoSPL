@@ -1,4 +1,4 @@
-This tool was developed using Terraform in an AWS in front of an EC2 instance (Ubuntu) which sets up an environment creating a “Scalable Nginx Server” on AWS with static home page saying “Cisco SPL”.
+This tool was developed using Terraform in an AWS in front of an EC2 instance (Ubuntu) which sets up an environment creating a “Scalable Nginx Server” on AWS with static home page saying “Cisco SPL”. As a part of Bonus Quest, I made this tool using Auto-Scaling.
 
 
 Assuming that the following are already present before executing that “ONE SINGLE COMMAND”.
