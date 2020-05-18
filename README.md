@@ -6,7 +6,7 @@ Prerequisites:
 1) AWS CLI need to be installed
 2) Terraform need to be installed
 3) AWS CLI need to be configured with access keys and security keys (with valid previleges on IAM).
-4) Clone the project, repo  
+4) Clone the project, repository CiscoSPL  
 
 Execution the single following command 
 
