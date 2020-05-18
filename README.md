@@ -19,12 +19,20 @@ Detailed Explanation:
 Following modules are used to create the scalable nginx web server on AWS.
 
 aws_launch_template: Creating weblt launch template to launch the instance from auto-scaling.
+
 aws_lb_target_group: Creating target group "webtg"
+
 aws_lb: Creating the application Load Balancer "web-lb"
+
 aws_lb_listener: Creating Load balancer listener and attaching to "web-lb" Load Balancer.
+
 aws_autoscaling_group: Creating autoscaling group "webasg" and attaching Launch Template "weblt".
+
 aws_autoscaling_policy: Creating autoscaling policy to scale up or scale down according to the load balancer request to the targets.
+
 Note: Scale-up will be happening once ALBRequestCountPerTarget is 10 continously for 90secs and Scale-down will be happening automatically if there's no load after 5mins.
+
+
 
 LB_ENDPOINT_URL: Load Balance Endpoint URL will be coming as an output.
 
